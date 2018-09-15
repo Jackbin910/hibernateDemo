@@ -1,0 +1,27 @@
+git config --global user.name
+git config --global user.email
+
+//生成秘钥
+ssh-keygen -t rsa
+
+//初始化
+git init
+git remote add origin SSH地址
+
+//加入暂存区
+git add . 
+//暂存区进入本地仓库
+git commit -m 注释
+//提交到远程仓库
+git push -u origin master
+
+//check out 
+git clone 
+
+//提交文件
+git add .
+git commit -m 
+git push origin master
+
+//更新文件
+git pull
