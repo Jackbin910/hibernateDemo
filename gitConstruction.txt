@@ -1,4 +1,4 @@
-git config --global user.name
+﻿git config --global user.name
 git config --global user.email
 
 //生成秘钥
@@ -25,3 +25,22 @@ git push origin master
 
 //更新文件
 git pull
+
+egit 使用
+提交文件
+1.share
+2.add to index
+3.commt
+4.team -remote push --
+
+commit 只能push整个项目
+commit 能一个文件
+
+下载文件
+
+更新文件
+team repository pull
+
+
+
+
