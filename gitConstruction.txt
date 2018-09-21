@@ -10,6 +10,8 @@ git remote add origin SSH地址
 
 //加入暂存区
 git add . 
+//从缓存区撤回
+git rm --cached
 //暂存区进入本地仓库
 git commit -m 注释
 //提交到远程仓库
